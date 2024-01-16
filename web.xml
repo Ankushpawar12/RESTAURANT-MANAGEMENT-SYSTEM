@@ -1,0 +1,40 @@
+<web-app>
+
+<servlet>
+        <servlet-name>insertionNew</servlet-name>
+        <servlet-class>RegistrationServlet</servlet-class>
+</servlet>
+
+<servlet>
+        <servlet-name>Login</servlet-name>
+        <servlet-class>LoginServlet</servlet-class>
+</servlet>
+
+
+<servlet-mapping>
+        <servlet-name>insertionNew</servlet-name>
+        <url-pattern>/RegistrationServlet</url-pattern>
+</servlet-mapping>
+
+
+<servlet-mapping>
+        <servlet-name>Login</servlet-name>
+        <url-pattern>/LoginServlet</url-pattern>
+</servlet-mapping>
+
+
+<servlet>
+        <servlet-name>booking</servlet-name>
+        <servlet-class>bookingServlet</servlet-class>
+</servlet>
+
+<servlet-mapping>
+        <servlet-name>booking</servlet-name>
+        <url-pattern>/bookingServlet</url-pattern>
+</servlet-mapping>
+
+
+
+</web-app>
+
+
